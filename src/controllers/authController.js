@@ -5,7 +5,7 @@ const sendEmail = require("../services/sendEmail");
 const generateToken = require("../utils/generateToken");
 const Otp = require("../models/Otp");
 
-// ============== SIGNUP (ONLY OTP + META) =================
+// ============== SIGNUP (ONLY OTP + META) ================= 
 exports.signup = async (req, res) => {
   const { name, email, phone, password } = req.body;
 
